@@ -1,0 +1,137 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+td,
+select,
+input,
+textarea,
+button {
+  font-family: "Noto Sans KR", "Malgun Gothic", "AppleSDGothicNeo", Arial,
+    Helvetica, serif, sans-serif;
+  letter-spacing: -0.4px;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  word-break: break-all;
+  line-height: 1;
+  letter-spacing: -0.4px;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+img {
+  vertical-align: top;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.font_default {
+  font-family: sans-serif;
+}
+
+.font_no_default {
+  font-family: "Noto Sans KR", "Malgun Gothic", "AppleSDGothicNeo", Arial,
+    Helvetica, serif, sans-serif;
+  letter-spacing: -0.4px;
+}
+
+img {
+  object-fit: cover;
+}
